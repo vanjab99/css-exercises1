@@ -1,16 +1,59 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  margin: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  /* display: flex;
+  justify-content: center; */
 }
+
+
+.chilli,
+.pepper,
+.barberry,
+.saffron {
+  display: flex;
+  /* align-items: flex-start; */
+  flex-direction: column;
+  max-width: 200px;
+  gap: 8px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+
+
+.fruits {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
